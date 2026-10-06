@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy &middot; rclone-drive OAuth client</title>
+<style>
+ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:640px;margin:4rem auto;padding:0 1.25rem;line-height:1.65;color:#1a1a1a}
+ h1{font-size:1.6rem} h2{font-size:1.1rem;margin-top:2rem}
+ footer{margin-top:3rem;font-size:.85rem;color:#666}
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p><em>Last updated: 7 October 2026</em></p>
+
+<h2>What this application does</h2>
+<p>This OAuth client is used by a personal, self-hosted <a href="https://rclone.org/">rclone</a>
+installation to read and write files in the Google Drive account of its owner. It requests the
+<code>https://www.googleapis.com/auth/drive</code> scope so that it can list, upload, download,
+and delete files that the owner has asked it to synchronise.</p>
+
+<h2>What data is collected</h2>
+<p>None. The application has no backend server, no database, and no analytics. It does not
+collect, log, or transmit any personal data to the author or to any third party.</p>
+
+<h2>Where data is stored</h2>
+<p>OAuth tokens issued by Google are stored only in a local configuration file on the owner's
+own computer. They are never uploaded anywhere.</p>
+
+<h2>How data is used</h2>
+<p>File data is transferred directly between the owner's computer and Google Drive. It is used
+solely to perform the synchronisation operations the owner requests. No file content is read
+for any other purpose.</p>
+
+<h2>Third-party sharing</h2>
+<p>No data is shared with anyone. The only external service contacted is the Google Drive API
+itself.</p>
+
+<h2>Data retention and deletion</h2>
+<p>Because no data is retained by this application, there is nothing to delete on its side.
+Access can be revoked at any time from the
+<a href="https://myaccount.google.com/permissions">Google Account permissions page</a>, and
+local tokens can be removed by deleting the rclone configuration file.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>Use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p>kuyuta28@users.noreply.github.com</p>
+
+<footer><a href="./">Home</a></footer>
+</body>
+</html>
